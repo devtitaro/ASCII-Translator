@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASCII Translator</title>
+    <link rel="stylesheet" href="./css/ascii.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class="head">
+                <div class="head-group">
+                    <img src="./img/translate.png" alt="translate" width="50" height="50">
+                    ASCII TRANSLATOR
+                    <p class="text">An online ASCII code encoder and decoder.</p>
+                </div>
+            </h1>
+            <div id="ill">
+                <img src="./svg/secure.svg" alt="Secure" width="200" height="200">
+            </div>
+        </header>
+
+        <main>
+            <div class="mode-switch">
+                <div class="translate">
+                    <button id="translate">Translate</button>
+                </div>
+            </div>
+
+            <div class="boxes">
+                <textarea id="ebox" cols="40" rows="15">Enter ASCII Code Here.</textarea>
+                <textarea id="dbox" cols="40" rows="15" disabled>Translation Appears Here.</textarea>
+                
+            </div>
+        </main>
+
+        <footer>
+            <p class="foot-text">Developed By: <a href="http://facebook.com/tyroklonejr">titaro</a></p>
+        </footer>
+    </>
+</body>
+<script src="./js/ascii.js"></script>
+</html>
